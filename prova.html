@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>SPA</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+        <main>
+            <div class="page active" id="Base64">
+                <h1 class="text">Base64</h1>
+                <ol>
+                    <li class="text"><a href="#" data-target="Base64" class="nav-link">Base64</a></li>
+                    <li class="text"><a href="#" data-target="UpperCase" class="nav-link">Upper Case</a></li>
+                    <li class="text"><a href="#" data-target="CapitalCase" class="nav-link">Capital Case</a></li>
+                    <li class="text"><a href="#" data-target="LowerCase" class="nav-link">Lower Case</a></li>
+                    <li class="text"><a href="#" data-target="ProperCase" class="nav-link">Proper Case</a></li>
+                </ol>
+                <p class="text">Digite aqui o texto a ser convertido:</p>
+                <input id="base64" type="text"></input>
+                <button class="button" onclick="base64()">Converter</button>
+            </div>
+
+            <div class="page" id="UpperCase">
+                <h1 class="text">Upper Case</h1>
+                <ol>
+                    <li class="text"><a href="#" data-target="Base64" class="nav-link">Base64</a></li>
+                    <li class="text"><a href="#" data-target="UpperCase" class="nav-link">Upper Case</a></li>
+                    <li class="text"><a href="#" data-target="CapitalCase" class="nav-link">Capital Case</a></li>
+                    <li class="text"><a href="#" data-target="LowerCase" class="nav-link">Lower Case</a></li>
+                    <li class="text"><a href="#" data-target="ProperCase" class="nav-link">Proper Case</a></li>
+                </ol>
+                <p class="text">Digite aqui o texto a ser convertido:</p>
+                <input id="upperCase" type="text"></input>
+                <button class="button" onclick="upperCase()">Converter</button>
+            </div>
+
+            <div class="page" id="CapitalCase">
+                <h1 class="text">Capital Case</h1>
+                <ol>
+                    <li class="text"><a href="#" data-target="Base64" class="nav-link">Base64</a></li>
+                    <li class="text"><a href="#" data-target="UpperCase" class="nav-link">Upper Case</a></li>
+                    <li class="text"><a href="#" data-target="CapitalCase" class="nav-link">Capital Case</a></li>
+                    <li class="text"><a href="#" data-target="LowerCase" class="nav-link">Lower Case</a></li>
+                    <li class="text"><a href="#" data-target="ProperCase" class="nav-link">Proper Case</a></li>
+                </ol>
+                <p class="text">Digite aqui o texto a ser convertido:</p>
+                <input id="capitalCase" type="text"></input>
+                <button class="button" onclick="capitalCase()">Converter</button>
+            </div>
+
+            <div class="page" id="LowerCase">
+                <h1 class="text">Lower Case</h1>
+                <ol>
+                    <li class="text"><a href="#" data-target="Base64" class="nav-link">Base64</a></li>
+                    <li class="text"><a href="#" data-target="UpperCase" class="nav-link">Upper Case</a></li>
+                    <li class="text"><a href="#" data-target="CapitalCase" class="nav-link">Capital Case</a></li>
+                    <li class="text"><a href="#" data-target="LowerCase" class="nav-link">Lower Case</a></li>
+                    <li class="text"><a href="#" data-target="ProperCase" class="nav-link">Proper Case</a></li>
+                </ol>
+                <p class="text">Digite aqui o texto a ser convertido:</p>
+                <input id="lowerCase" type="text"></input>
+                <button class="button" onclick="lowerCase()">Converter</button>
+            </div>
+
+            <div class="page" id="ProperCase">
+                <h1 class="text">Proper Case</h1>
+                <ol>
+                    <li class="text"><a href="#" data-target="Base64" class="nav-link">Base64</a></li>
+                    <li class="text"><a href="#" data-target="UpperCase" class="nav-link">Upper Case</a></li>
+                    <li class="text"><a href="#" data-target="CapitalCase" class="nav-link">Capital Case</a></li>
+                    <li class="text"><a href="#" data-target="LowerCase" class="nav-link">Lower Case</a></li>
+                    <li class="text"><a href="#" data-target="ProperCase" class="nav-link">Proper Case</a></li>
+                </ol>
+                <p class="text">Digite aqui o texto a ser convertido:</p>
+                <input id="properCase" type="text"></input>
+                <button class="button" onclick="properCase()">Converter</button>
+            </div>
+        </main>
+        <script src="funcoes.js"></script>
+    </body>
+</html>
